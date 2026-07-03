@@ -1,0 +1,182 @@
+{
+  "app": {
+    "tagline": "BSC 上的去中心化兑换"
+  },
+  "nav": {
+    "swap": "兑换",
+    "liquidity": "农场/流动性",
+    "farm": "农场",
+    "docs": "文档"
+  },
+  "home": {
+    "badge": "BSC 上的去中心化交易所",
+    "title": "欢迎来到 GunSwap",
+    "subtitle": "极速兑换、提供流动性赚取手续费 —— 简单、开放、由你掌控。",
+    "startSwap": "开始交易",
+    "viewPools": "浏览资金池",
+    "stats": {
+      "tvl": "锁定总价值",
+      "vol": "24小时交易额",
+      "pairs": "交易对"
+    },
+    "feat": {
+      "v1": "安全",
+      "l1": "链上透明",
+      "v2": "极速",
+      "l2": "秒级成交",
+      "v3": "非托管",
+      "l3": "自持资产"
+    },
+    "features": {
+      "swapTitle": "极速兑换",
+      "swapDesc": "实时报价、低滑点,几秒完成代币互换。",
+      "lpTitle": "提供流动性",
+      "lpDesc": "把代币存入资金池,按份额赚取交易手续费。",
+      "feeTitle": "项目白皮书",
+      "feeDesc": "了解 GunSwap 的愿景、机制与技术设计。",
+      "swapLink": "开始兑换",
+      "lpLink": "添加流动性",
+      "feeLink": "阅读白皮书"
+    }
+  },
+  "wallet": {
+    "connect": "连接钱包",
+    "connecting": "连接中…",
+    "switchTo": "切换到 {{network}}",
+    "account": "账户"
+  },
+  "theme": {
+    "toDark": "切换到夜间模式",
+    "toLight": "切换到日间模式"
+  },
+  "footer": {
+    "tagline": "BSC 上的去中心化兑换",
+    "running": "运行在 {{network}}",
+    "rights": "保留所有权利"
+  },
+  "pools": {
+    "allPools": "所有资金池",
+    "myPositions": "我的流动性",
+    "farmBadge": "农场",
+    "create": "创建流动性池",
+    "add": "添加流动性",
+    "tradeHint": "点击即可快速交易",
+    "col": {
+      "pool": "资金池",
+      "fee": "手续费级别",
+      "apr": "APR",
+      "tvl": "锁定总价值",
+      "vol": "24小时交易额"
+    },
+    "loading": "加载中…",
+    "empty": "暂无资金池"
+  },
+  "positions": {
+    "header": "池子",
+    "colFee": "手续费",
+    "colMyLp": "我的 LP",
+    "colShare": "占比",
+    "colWithdrawable": "可取回",
+    "loading": "加载中…",
+    "empty": "暂无持仓",
+    "connectHint": "连接钱包查看你的流动性持仓",
+    "colRange": "价格区间(最低/最高)",
+    "colLiquidity": "流动性",
+    "colEarnings": "收益",
+    "colApr": "APR",
+    "fullRange": "全区间",
+    "deposited": "已存入代币",
+    "lpFees": "LP 手续费",
+    "lpFeesApr": "LP 手续费 APR",
+    "noRangeNote": "此流动性池没有价格范围。流动性均匀分布",
+    "fullPage": "完整页面",
+    "newPosition": "新建仓位",
+    "back": "返回"
+  },
+  "createPool": {
+    "title": "创建流动性池",
+    "selectPair": "选择代币对",
+    "exists": "具有所选设置的资金池已存在。请改为添加流动性。",
+    "feeTier": "手续费级别",
+    "setInitialPrice": "设置初始价格",
+    "enterAmounts": "输入金额",
+    "autoByPrice": "按初始价格自动计算",
+    "max": "最大",
+    "approve": "授权",
+    "approved": "授权成功",
+    "creating": "创建中…",
+    "created": "资金池创建成功",
+    "notConfigured": "合约地址未配置",
+    "notConfiguredHint": "还没填合约地址,部署后把 Factory / Router 填进 src/config.ts。",
+    "pickDifferent": "请选择不同的代币",
+    "setPriceFirst": "请先设置初始价格",
+    "enterAmount": "输入金额",
+    "insufficient": "{{sym}} 余额不足"
+  },
+  "swap": {
+    "title": "兑换",
+    "settings": "设置",
+    "slippageLabel": "滑点容忍度",
+    "slippageAuto": "自动",
+    "configBanner": "还没填合约地址。部署后把 Factory / Router 地址填进 src/config.ts。",
+    "sell": "卖出",
+    "buy": "买入",
+    "balance": "余额",
+    "max": "最大",
+    "flip": "对调",
+    "price": "价格",
+    "minReceived": "最少到账(滑点 {{slippage}}%)",
+    "btnNotConfigured": "合约地址未配置",
+    "btnPickDifferent": "请选择不同的代币",
+    "btnEnterAmount": "输入数量",
+    "btnInsufficient": "{{sym}} 余额不足",
+    "btnNoPair": "该交易对没有流动性",
+    "btnApproving": "授权中…",
+    "btnApprove": "授权 {{sym}}",
+    "btnSwapping": "兑换中…",
+    "btnSwap": "兑换",
+    "toastApproving": "授权提交中…",
+    "toastApproved": "授权成功",
+    "toastSwapping": "兑换提交中…",
+    "toastSwapped": "兑换成功:{{amount}} {{from}} → {{to}}"
+  },
+  "liquidity": {
+    "title": "流动性",
+    "add": "添加",
+    "remove": "移除",
+    "configBanner": "还没填合约地址,请在 src/config.ts 填 Factory / Router。",
+    "amountOf": "{{sym}} 数量",
+    "newPairHint": "这是一个新交易对 —— 你将是第一个提供流动性的人,你设定的比例就是初始价格。",
+    "yourLp": "你的 LP",
+    "estReceive": "预计取回",
+    "btnNotConfigured": "合约地址未配置",
+    "btnPickDifferent": "请选择不同的代币",
+    "btnEnterAmount": "输入数量",
+    "btnProcessing": "处理中…",
+    "btnAdd": "添加流动性",
+    "btnNoLp": "没有该交易对的流动性",
+    "btnRemove": "移除流动性",
+    "toastApproveToken": "授权 {{sym}}…",
+    "toastApproved": "{{sym}} 授权成功",
+    "toastAdding": "添加流动性中…",
+    "toastAdded": "已添加流动性",
+    "toastNoLp": "没有可移除的流动性",
+    "toastApproveLp": "授权 LP 代币…",
+    "toastRemoving": "移除流动性中…",
+    "toastRemoved": "已移除流动性"
+  },
+  "tokenModal": {
+    "title": "选择代币",
+    "search": "搜索名称 / 符号,或粘贴代币地址导入",
+    "searching": "查询中…",
+    "invalid": "这个地址不是有效的代币合约",
+    "clickImport": "点击导入",
+    "import": "导入",
+    "cancel": "取消",
+    "unknownSource": "未知来源",
+    "viewOnExplorer": "在 BscScan 上查看",
+    "importWarning": "任何人都可以创建任意名称的代币,包括现有项目的伪造或误导性版本。购买此类欺诈性代币可能导致永久性的资金损失。",
+    "native": "原生代币",
+    "empty": "没有找到代币"
+  }
+}

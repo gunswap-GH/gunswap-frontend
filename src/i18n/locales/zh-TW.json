@@ -1,0 +1,182 @@
+{
+  "app": {
+    "tagline": "BSC 上的去中心化兌換"
+  },
+  "nav": {
+    "swap": "兌換",
+    "liquidity": "農場/流動性",
+    "farm": "農場",
+    "docs": "文檔"
+  },
+  "home": {
+    "badge": "BSC 上的去中心化交易所",
+    "title": "歡迎來到 GunSwap",
+    "subtitle": "極速兌換、提供流動性賺取手續費 —— 簡單、開放、由你掌控。",
+    "startSwap": "開始交易",
+    "viewPools": "瀏覽資金池",
+    "stats": {
+      "tvl": "鎖定總價值",
+      "vol": "24小時交易額",
+      "pairs": "交易對"
+    },
+    "feat": {
+      "v1": "安全",
+      "l1": "鏈上透明",
+      "v2": "極速",
+      "l2": "秒級成交",
+      "v3": "非託管",
+      "l3": "自持資產"
+    },
+    "features": {
+      "swapTitle": "極速兌換",
+      "swapDesc": "即時報價、低滑點,幾秒完成代幣互換。",
+      "lpTitle": "提供流動性",
+      "lpDesc": "把代幣存入資金池,依份額賺取交易手續費。",
+      "feeTitle": "項目白皮書",
+      "feeDesc": "了解 GunSwap 的願景、機制與技術設計。",
+      "swapLink": "開始兌換",
+      "lpLink": "添加流動性",
+      "feeLink": "閱讀白皮書"
+    }
+  },
+  "wallet": {
+    "connect": "連接錢包",
+    "connecting": "連接中…",
+    "switchTo": "切換到 {{network}}",
+    "account": "帳戶"
+  },
+  "theme": {
+    "toDark": "切換到夜間模式",
+    "toLight": "切換到日間模式"
+  },
+  "footer": {
+    "tagline": "BSC 上的去中心化兌換",
+    "running": "運行在 {{network}}",
+    "rights": "保留所有權利"
+  },
+  "pools": {
+    "allPools": "所有資金池",
+    "myPositions": "我的流動性",
+    "farmBadge": "農場",
+    "create": "建立流動性池",
+    "add": "新增流動性",
+    "tradeHint": "點擊即可快速交易",
+    "col": {
+      "pool": "資金池",
+      "fee": "手續費級別",
+      "apr": "APR",
+      "tvl": "鎖定總價值",
+      "vol": "24小時交易額"
+    },
+    "loading": "載入中…",
+    "empty": "暫無資金池"
+  },
+  "positions": {
+    "header": "池子",
+    "colFee": "手續費",
+    "colMyLp": "我的 LP",
+    "colShare": "佔比",
+    "colWithdrawable": "可取回",
+    "loading": "載入中…",
+    "empty": "暫無持倉",
+    "connectHint": "連接錢包查看你的流動性持倉",
+    "colRange": "價格區間(最低/最高)",
+    "colLiquidity": "流動性",
+    "colEarnings": "收益",
+    "colApr": "APR",
+    "fullRange": "全區間",
+    "deposited": "已存入代幣",
+    "lpFees": "LP 手續費",
+    "lpFeesApr": "LP 手續費 APR",
+    "noRangeNote": "此流動性池沒有價格範圍。流動性均勻分佈",
+    "fullPage": "完整頁面",
+    "newPosition": "新建倉位",
+    "back": "返回"
+  },
+  "createPool": {
+    "title": "建立流動性池",
+    "selectPair": "選擇代幣對",
+    "exists": "具有所選設定的資金池已存在。請改為新增流動性。",
+    "feeTier": "手續費級別",
+    "setInitialPrice": "設定初始價格",
+    "enterAmounts": "輸入金額",
+    "autoByPrice": "依初始價格自動計算",
+    "max": "最大",
+    "approve": "授權",
+    "approved": "授權成功",
+    "creating": "建立中…",
+    "created": "資金池建立成功",
+    "notConfigured": "合約地址未配置",
+    "notConfiguredHint": "尚未填寫合約地址,部署後將 Factory / Router 填入 src/config.ts。",
+    "pickDifferent": "請選擇不同的代幣",
+    "setPriceFirst": "請先設定初始價格",
+    "enterAmount": "輸入金額",
+    "insufficient": "{{sym}} 餘額不足"
+  },
+  "swap": {
+    "title": "兌換",
+    "settings": "設定",
+    "slippageLabel": "滑點容忍度",
+    "slippageAuto": "自動",
+    "configBanner": "還沒填合約地址。部署後把 Factory / Router 地址填進 src/config.ts。",
+    "sell": "賣出",
+    "buy": "買入",
+    "balance": "餘額",
+    "max": "最大",
+    "flip": "對調",
+    "price": "價格",
+    "minReceived": "最少到帳(滑點 {{slippage}}%)",
+    "btnNotConfigured": "合約地址未配置",
+    "btnPickDifferent": "請選擇不同的代幣",
+    "btnEnterAmount": "輸入數量",
+    "btnInsufficient": "{{sym}} 餘額不足",
+    "btnNoPair": "該交易對沒有流動性",
+    "btnApproving": "授權中…",
+    "btnApprove": "授權 {{sym}}",
+    "btnSwapping": "兌換中…",
+    "btnSwap": "兌換",
+    "toastApproving": "授權提交中…",
+    "toastApproved": "授權成功",
+    "toastSwapping": "兌換提交中…",
+    "toastSwapped": "兌換成功:{{amount}} {{from}} → {{to}}"
+  },
+  "liquidity": {
+    "title": "流動性",
+    "add": "新增",
+    "remove": "移除",
+    "configBanner": "還沒填合約地址,請在 src/config.ts 填 Factory / Router。",
+    "amountOf": "{{sym}} 數量",
+    "newPairHint": "這是一個新交易對 —— 你將是第一個提供流動性的人,你設定的比例就是初始價格。",
+    "yourLp": "你的 LP",
+    "estReceive": "預計取回",
+    "btnNotConfigured": "合約地址未配置",
+    "btnPickDifferent": "請選擇不同的代幣",
+    "btnEnterAmount": "輸入數量",
+    "btnProcessing": "處理中…",
+    "btnAdd": "新增流動性",
+    "btnNoLp": "沒有該交易對的流動性",
+    "btnRemove": "移除流動性",
+    "toastApproveToken": "授權 {{sym}}…",
+    "toastApproved": "{{sym}} 授權成功",
+    "toastAdding": "新增流動性中…",
+    "toastAdded": "已新增流動性",
+    "toastNoLp": "沒有可移除的流動性",
+    "toastApproveLp": "授權 LP 代幣…",
+    "toastRemoving": "移除流動性中…",
+    "toastRemoved": "已移除流動性"
+  },
+  "tokenModal": {
+    "title": "選擇代幣",
+    "search": "搜尋名稱 / 符號,或貼上代幣地址匯入",
+    "searching": "查詢中…",
+    "invalid": "這個地址不是有效的代幣合約",
+    "clickImport": "點擊匯入",
+    "import": "匯入",
+    "cancel": "取消",
+    "unknownSource": "未知來源",
+    "viewOnExplorer": "在 BscScan 上查看",
+    "importWarning": "任何人都可以建立任意名稱的代幣,包括現有專案的偽造或誤導性版本。購買此類詐騙代幣可能導致永久性的資金損失。",
+    "native": "原生代幣",
+    "empty": "沒有找到代幣"
+  }
+}

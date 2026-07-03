@@ -1,0 +1,182 @@
+{
+  "app": {
+    "tagline": "BSC 기반 탈중앙화 스왑"
+  },
+  "nav": {
+    "swap": "스왑",
+    "liquidity": "팜/유동성",
+    "farm": "팜",
+    "docs": "문서"
+  },
+  "home": {
+    "badge": "BSC 기반 탈중앙화 거래소",
+    "title": "GunSwap에 오신 것을 환영합니다",
+    "subtitle": "몇 초 만에 스왑하고 유동성을 제공해 수수료를 버세요 — 간단하고 개방적이며 당신의 통제 하에.",
+    "startSwap": "거래 시작",
+    "viewPools": "풀 둘러보기",
+    "stats": {
+      "tvl": "TVL",
+      "vol": "24시간 거래량",
+      "pairs": "페어"
+    },
+    "feat": {
+      "v1": "안전",
+      "l1": "온체인 투명",
+      "v2": "초고속",
+      "l2": "수초 내 완료",
+      "v3": "비수탁",
+      "l3": "자산 자가 보관"
+    },
+    "features": {
+      "swapTitle": "초고속 스왑",
+      "swapDesc": "실시간 견적과 낮은 슬리피지로 몇 초 만에 스왑.",
+      "lpTitle": "유동성 제공",
+      "lpDesc": "토큰을 풀에 예치하고 지분에 따라 거래 수수료를 획득.",
+      "feeTitle": "백서",
+      "feeDesc": "GunSwap의 비전과 설계를 알아보세요.",
+      "swapLink": "스왑 시작",
+      "lpLink": "유동성 추가",
+      "feeLink": "백서 읽기"
+    }
+  },
+  "wallet": {
+    "connect": "지갑 연결",
+    "connecting": "연결 중…",
+    "switchTo": "{{network}}(으)로 전환",
+    "account": "계정"
+  },
+  "theme": {
+    "toDark": "다크 모드로 전환",
+    "toLight": "라이트 모드로 전환"
+  },
+  "footer": {
+    "tagline": "BSC 기반 탈중앙화 스왑",
+    "running": "{{network}}에서 실행 중",
+    "rights": "모든 권리 보유"
+  },
+  "pools": {
+    "allPools": "모든 풀",
+    "myPositions": "내 유동성",
+    "farmBadge": "팜",
+    "create": "풀 생성",
+    "add": "유동성 추가",
+    "tradeHint": "클릭하여 빠른 거래",
+    "col": {
+      "pool": "풀",
+      "fee": "수수료 등급",
+      "apr": "APR",
+      "tvl": "TVL",
+      "vol": "24시간 거래량"
+    },
+    "loading": "불러오는 중…",
+    "empty": "풀이 없습니다"
+  },
+  "positions": {
+    "header": "풀",
+    "colFee": "수수료",
+    "colMyLp": "내 LP",
+    "colShare": "지분",
+    "colWithdrawable": "인출 가능",
+    "loading": "불러오는 중…",
+    "empty": "포지션이 없습니다",
+    "connectHint": "지갑을 연결하여 유동성 포지션을 확인하세요",
+    "colRange": "가격 범위(최소/최대)",
+    "colLiquidity": "유동성",
+    "colEarnings": "수익",
+    "colApr": "APR",
+    "fullRange": "전체 범위",
+    "deposited": "예치 토큰",
+    "lpFees": "LP 수수료",
+    "lpFeesApr": "LP 수수료 APR",
+    "noRangeNote": "이 풀에는 가격 범위가 없습니다. 유동성이 균등하게 분배됩니다.",
+    "fullPage": "전체 페이지",
+    "newPosition": "새 포지션",
+    "back": "뒤로"
+  },
+  "createPool": {
+    "title": "유동성 풀 생성",
+    "selectPair": "토큰 페어 선택",
+    "exists": "선택한 설정의 풀이 이미 존재합니다. 유동성 추가를 이용하세요.",
+    "feeTier": "수수료 등급",
+    "setInitialPrice": "초기 가격 설정",
+    "enterAmounts": "금액 입력",
+    "autoByPrice": "초기 가격으로 자동 계산",
+    "max": "최대",
+    "approve": "승인",
+    "approved": "승인 완료",
+    "creating": "생성 중…",
+    "created": "풀이 생성되었습니다",
+    "notConfigured": "컨트랙트 미설정",
+    "notConfiguredHint": "컨트랙트 주소가 설정되지 않았습니다. 배포 후 src/config.ts에 Factory / Router를 입력하세요.",
+    "pickDifferent": "다른 토큰을 선택하세요",
+    "setPriceFirst": "초기 가격을 먼저 설정하세요",
+    "enterAmount": "금액 입력",
+    "insufficient": "{{sym}} 잔액 부족"
+  },
+  "swap": {
+    "title": "스왑",
+    "settings": "설정",
+    "slippageLabel": "슬리피지 허용 범위",
+    "slippageAuto": "자동",
+    "configBanner": "컨트랙트 주소가 아직 설정되지 않았습니다. 배포 후 Factory / Router를 src/config.ts에 입력하세요.",
+    "sell": "판매",
+    "buy": "구매",
+    "balance": "잔액",
+    "max": "최대",
+    "flip": "전환",
+    "price": "가격",
+    "minReceived": "최소 수령액 (슬리피지 {{slippage}}%)",
+    "btnNotConfigured": "컨트랙트 주소 미설정",
+    "btnPickDifferent": "다른 토큰을 선택하세요",
+    "btnEnterAmount": "수량 입력",
+    "btnInsufficient": "{{sym}} 잔액 부족",
+    "btnNoPair": "이 페어에는 유동성이 없습니다",
+    "btnApproving": "승인 중…",
+    "btnApprove": "{{sym}} 승인",
+    "btnSwapping": "스왑 중…",
+    "btnSwap": "스왑",
+    "toastApproving": "승인 제출됨…",
+    "toastApproved": "승인 완료",
+    "toastSwapping": "스왑 제출됨…",
+    "toastSwapped": "스왑 성공: {{amount}} {{from}} → {{to}}"
+  },
+  "liquidity": {
+    "title": "유동성",
+    "add": "추가",
+    "remove": "제거",
+    "configBanner": "컨트랙트 주소가 아직 설정되지 않았습니다. Factory / Router를 src/config.ts에 입력하세요.",
+    "amountOf": "{{sym}} 수량",
+    "newPairHint": "새로운 페어입니다 —— 첫 유동성 공급자가 되며, 설정한 비율이 초기 가격이 됩니다.",
+    "yourLp": "내 LP",
+    "estReceive": "예상 수령액",
+    "btnNotConfigured": "컨트랙트 주소 미설정",
+    "btnPickDifferent": "다른 토큰을 선택하세요",
+    "btnEnterAmount": "수량 입력",
+    "btnProcessing": "처리 중…",
+    "btnAdd": "유동성 추가",
+    "btnNoLp": "이 페어의 유동성이 없습니다",
+    "btnRemove": "유동성 제거",
+    "toastApproveToken": "{{sym}} 승인 중…",
+    "toastApproved": "{{sym}} 승인 완료",
+    "toastAdding": "유동성 추가 중…",
+    "toastAdded": "유동성 추가됨",
+    "toastNoLp": "제거할 유동성이 없습니다",
+    "toastApproveLp": "LP 토큰 승인 중…",
+    "toastRemoving": "유동성 제거 중…",
+    "toastRemoved": "유동성 제거됨"
+  },
+  "tokenModal": {
+    "title": "토큰 선택",
+    "search": "이름 / 심볼로 검색하거나 토큰 주소를 붙여넣어 가져오기",
+    "searching": "검색 중…",
+    "invalid": "이 주소는 유효한 토큰 컨트랙트가 아닙니다",
+    "clickImport": "클릭하여 가져오기",
+    "import": "가져오기",
+    "cancel": "취소",
+    "unknownSource": "출처 불명",
+    "viewOnExplorer": "BscScan에서 보기",
+    "importWarning": "누구나 임의의 이름으로 토큰을 만들 수 있으며, 기존 프로젝트의 위조 또는 오해를 일으키는 버전도 포함됩니다. 이러한 사기성 토큰을 구매하면 영구적인 자금 손실로 이어질 수 있습니다.",
+    "native": "네이티브 코인",
+    "empty": "토큰을 찾을 수 없습니다"
+  }
+}

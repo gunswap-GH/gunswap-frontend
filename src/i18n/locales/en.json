@@ -1,0 +1,182 @@
+{
+  "app": {
+    "tagline": "Decentralized swap on BSC"
+  },
+  "nav": {
+    "swap": "Swap",
+    "liquidity": "Farm/Liquidity",
+    "farm": "Farm",
+    "docs": "Docs"
+  },
+  "home": {
+    "badge": "Decentralized exchange on BSC",
+    "title": "Welcome to GunSwap",
+    "subtitle": "Swap in seconds and earn fees by providing liquidity — simple, open, and in your control.",
+    "startSwap": "Start Trading",
+    "viewPools": "Explore Pools",
+    "stats": {
+      "tvl": "TVL",
+      "vol": "Volume 24H",
+      "pairs": "Pairs"
+    },
+    "feat": {
+      "v1": "Secure",
+      "l1": "On-chain",
+      "v2": "Instant",
+      "l2": "Swaps in seconds",
+      "v3": "Non-custodial",
+      "l3": "You hold your keys"
+    },
+    "features": {
+      "swapTitle": "Fast Swaps",
+      "swapDesc": "Live quotes, low slippage — swaps in seconds.",
+      "lpTitle": "Liquidity",
+      "lpDesc": "Deposit tokens, earn fees by your share.",
+      "feeTitle": "Whitepaper",
+      "feeDesc": "GunSwap's vision, design, and roadmap.",
+      "swapLink": "Start swapping",
+      "lpLink": "Add liquidity",
+      "feeLink": "Read more"
+    }
+  },
+  "wallet": {
+    "connect": "Connect Wallet",
+    "connecting": "Connecting…",
+    "switchTo": "Switch to {{network}}",
+    "account": "Account"
+  },
+  "theme": {
+    "toDark": "Switch to dark mode",
+    "toLight": "Switch to light mode"
+  },
+  "footer": {
+    "tagline": "Decentralized swap on BSC",
+    "running": "Running on {{network}}",
+    "rights": "All rights reserved"
+  },
+  "pools": {
+    "allPools": "All Pools",
+    "myPositions": "My Liquidity",
+    "farmBadge": "Farm",
+    "create": "Create Pool",
+    "add": "Add Liquidity",
+    "tradeHint": "Click to quick trade",
+    "col": {
+      "pool": "Pool",
+      "fee": "Fee Tier",
+      "apr": "APR",
+      "tvl": "TVL",
+      "vol": "Volume 24H"
+    },
+    "loading": "Loading…",
+    "empty": "No pools yet"
+  },
+  "positions": {
+    "header": "Pool",
+    "colFee": "Fee",
+    "colMyLp": "My LP",
+    "colShare": "Share",
+    "colWithdrawable": "Withdrawable",
+    "loading": "Loading…",
+    "empty": "No positions yet",
+    "connectHint": "Connect your wallet to view your liquidity positions",
+    "colRange": "Price Range (Min/Max)",
+    "colLiquidity": "Liquidity",
+    "colEarnings": "Earnings",
+    "colApr": "APR",
+    "fullRange": "Full Range",
+    "deposited": "Deposited",
+    "lpFees": "LP Fees",
+    "lpFeesApr": "LP Fee APR",
+    "noRangeNote": "This pool has no price range. Liquidity is distributed evenly.",
+    "fullPage": "Full Page",
+    "newPosition": "New Position",
+    "back": "Back"
+  },
+  "createPool": {
+    "title": "Create Liquidity Pool",
+    "selectPair": "Choose Token Pair",
+    "exists": "A pool with the selected settings already exists. Please add liquidity instead.",
+    "feeTier": "Fee Tier",
+    "setInitialPrice": "Set Initial Price",
+    "enterAmounts": "Enter Amounts",
+    "autoByPrice": "Auto-calculated from price",
+    "max": "Max",
+    "approve": "Approve",
+    "approved": "approved",
+    "creating": "Creating…",
+    "created": "Pool created",
+    "notConfigured": "Contracts not configured",
+    "notConfiguredHint": "Contract addresses are not set. After deploying, fill Factory / Router in src/config.ts.",
+    "pickDifferent": "Select different tokens",
+    "setPriceFirst": "Set initial price first",
+    "enterAmount": "Enter amount",
+    "insufficient": "Insufficient {{sym}} balance"
+  },
+  "swap": {
+    "title": "Swap",
+    "settings": "Settings",
+    "slippageLabel": "Slippage tolerance",
+    "slippageAuto": "Auto",
+    "configBanner": "Contract addresses not set yet. After deploying, fill Factory / Router into src/config.ts.",
+    "sell": "Sell",
+    "buy": "Buy",
+    "balance": "Balance",
+    "max": "Max",
+    "flip": "Switch",
+    "price": "Price",
+    "minReceived": "Min received (slippage {{slippage}}%)",
+    "btnNotConfigured": "Contract address not set",
+    "btnPickDifferent": "Select a different token",
+    "btnEnterAmount": "Enter an amount",
+    "btnInsufficient": "Insufficient {{sym}} balance",
+    "btnNoPair": "No liquidity for this pair",
+    "btnApproving": "Approving…",
+    "btnApprove": "Approve {{sym}}",
+    "btnSwapping": "Swapping…",
+    "btnSwap": "Swap",
+    "toastApproving": "Approval submitted…",
+    "toastApproved": "Approved",
+    "toastSwapping": "Swap submitted…",
+    "toastSwapped": "Swapped: {{amount}} {{from}} → {{to}}"
+  },
+  "liquidity": {
+    "title": "Liquidity",
+    "add": "Add",
+    "remove": "Remove",
+    "configBanner": "Contract addresses not set yet. Fill Factory / Router into src/config.ts.",
+    "amountOf": "{{sym}} amount",
+    "newPairHint": "This is a new pair — you'll be the first liquidity provider, and the ratio you set becomes the initial price.",
+    "yourLp": "Your LP",
+    "estReceive": "Est. received",
+    "btnNotConfigured": "Contract address not set",
+    "btnPickDifferent": "Select a different token",
+    "btnEnterAmount": "Enter an amount",
+    "btnProcessing": "Processing…",
+    "btnAdd": "Add liquidity",
+    "btnNoLp": "No liquidity for this pair",
+    "btnRemove": "Remove liquidity",
+    "toastApproveToken": "Approving {{sym}}…",
+    "toastApproved": "{{sym}} approved",
+    "toastAdding": "Adding liquidity…",
+    "toastAdded": "Liquidity added",
+    "toastNoLp": "No liquidity to remove",
+    "toastApproveLp": "Approving LP token…",
+    "toastRemoving": "Removing liquidity…",
+    "toastRemoved": "Liquidity removed"
+  },
+  "tokenModal": {
+    "title": "Select a token",
+    "search": "Search name / symbol, or paste a token address to import",
+    "searching": "Searching…",
+    "invalid": "This address is not a valid token contract",
+    "clickImport": "Click to import",
+    "import": "Import",
+    "cancel": "Cancel",
+    "unknownSource": "Unknown source",
+    "viewOnExplorer": "View on BscScan",
+    "importWarning": "Anyone can create a token with any name, including fake or misleading versions of existing projects. Buying such fraudulent tokens may lead to permanent loss of funds.",
+    "native": "Native coin",
+    "empty": "No tokens found"
+  }
+}

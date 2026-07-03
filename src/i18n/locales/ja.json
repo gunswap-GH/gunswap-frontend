@@ -1,0 +1,182 @@
+{
+  "app": {
+    "tagline": "BSC 上の分散型スワップ"
+  },
+  "nav": {
+    "swap": "スワップ",
+    "liquidity": "ファーム/流動性",
+    "farm": "ファーム",
+    "docs": "ドキュメント"
+  },
+  "home": {
+    "badge": "BSC 上の分散型取引所",
+    "title": "GunSwap へようこそ",
+    "subtitle": "数秒でスワップ、流動性を提供して手数料を獲得 —— シンプルでオープン、あなたの手の中に。",
+    "startSwap": "取引を始める",
+    "viewPools": "プールを見る",
+    "stats": {
+      "tvl": "TVL",
+      "vol": "24時間取引高",
+      "pairs": "ペア"
+    },
+    "feat": {
+      "v1": "安全",
+      "l1": "オンチェーン",
+      "v2": "高速",
+      "l2": "数秒で完了",
+      "v3": "非カストディアル",
+      "l3": "資産を自己管理"
+    },
+    "features": {
+      "swapTitle": "高速スワップ",
+      "swapDesc": "リアルタイム見積もりと低スリッページで数秒でスワップ。",
+      "lpTitle": "流動性を提供",
+      "lpDesc": "トークンをプールに預け、シェアに応じて手数料を獲得。",
+      "feeTitle": "ホワイトペーパー",
+      "feeDesc": "GunSwapのビジョンと設計を詳しく。",
+      "swapLink": "スワップを開始",
+      "lpLink": "流動性を追加",
+      "feeLink": "白書を読む"
+    }
+  },
+  "wallet": {
+    "connect": "ウォレット接続",
+    "connecting": "接続中…",
+    "switchTo": "{{network}} に切替",
+    "account": "アカウント"
+  },
+  "theme": {
+    "toDark": "ダークモードに切替",
+    "toLight": "ライトモードに切替"
+  },
+  "footer": {
+    "tagline": "BSC 上の分散型スワップ",
+    "running": "{{network}} で稼働中",
+    "rights": "全著作権所有"
+  },
+  "pools": {
+    "allPools": "すべてのプール",
+    "myPositions": "マイ流動性",
+    "farmBadge": "ファーム",
+    "create": "プール作成",
+    "add": "流動性を追加",
+    "tradeHint": "クリックでクイック取引",
+    "col": {
+      "pool": "プール",
+      "fee": "手数料率",
+      "apr": "APR",
+      "tvl": "TVL",
+      "vol": "24時間取引高"
+    },
+    "loading": "読み込み中…",
+    "empty": "プールがありません"
+  },
+  "positions": {
+    "header": "プール",
+    "colFee": "手数料",
+    "colMyLp": "マイ LP",
+    "colShare": "シェア",
+    "colWithdrawable": "引出可能",
+    "loading": "読み込み中…",
+    "empty": "ポジションがありません",
+    "connectHint": "ウォレットを接続して流動性ポジションを表示",
+    "colRange": "価格レンジ(最小/最大)",
+    "colLiquidity": "流動性",
+    "colEarnings": "収益",
+    "colApr": "APR",
+    "fullRange": "フルレンジ",
+    "deposited": "預入トークン",
+    "lpFees": "LP 手数料",
+    "lpFeesApr": "LP 手数料 APR",
+    "noRangeNote": "このプールには価格レンジがありません。流動性は均等に分散されます。",
+    "fullPage": "全画面",
+    "newPosition": "新規ポジション",
+    "back": "戻る"
+  },
+  "createPool": {
+    "title": "流動性プールを作成",
+    "selectPair": "トークンペアを選択",
+    "exists": "選択した設定のプールは既に存在します。流動性の追加をご利用ください。",
+    "feeTier": "手数料率",
+    "setInitialPrice": "初期価格を設定",
+    "enterAmounts": "数量を入力",
+    "autoByPrice": "初期価格から自動計算",
+    "max": "最大",
+    "approve": "承認",
+    "approved": "承認完了",
+    "creating": "作成中…",
+    "created": "プールを作成しました",
+    "notConfigured": "コントラクト未設定",
+    "notConfiguredHint": "コントラクトアドレスが未設定です。デプロイ後に src/config.ts へ Factory / Router を記入してください。",
+    "pickDifferent": "異なるトークンを選択してください",
+    "setPriceFirst": "先に初期価格を設定してください",
+    "enterAmount": "数量を入力",
+    "insufficient": "{{sym}} の残高不足"
+  },
+  "swap": {
+    "title": "スワップ",
+    "settings": "設定",
+    "slippageLabel": "スリッページ許容範囲",
+    "slippageAuto": "自動",
+    "configBanner": "コントラクトアドレスが未設定です。デプロイ後、Factory / Router を src/config.ts に入力してください。",
+    "sell": "売却",
+    "buy": "購入",
+    "balance": "残高",
+    "max": "最大",
+    "flip": "入れ替え",
+    "price": "価格",
+    "minReceived": "最低受取額(スリッページ {{slippage}}%)",
+    "btnNotConfigured": "コントラクトアドレス未設定",
+    "btnPickDifferent": "別のトークンを選択してください",
+    "btnEnterAmount": "数量を入力",
+    "btnInsufficient": "{{sym}} の残高が不足しています",
+    "btnNoPair": "このペアには流動性がありません",
+    "btnApproving": "承認中…",
+    "btnApprove": "{{sym}} を承認",
+    "btnSwapping": "スワップ中…",
+    "btnSwap": "スワップ",
+    "toastApproving": "承認を送信しました…",
+    "toastApproved": "承認しました",
+    "toastSwapping": "スワップを送信しました…",
+    "toastSwapped": "スワップ成功:{{amount}} {{from}} → {{to}}"
+  },
+  "liquidity": {
+    "title": "流動性",
+    "add": "追加",
+    "remove": "削除",
+    "configBanner": "コントラクトアドレスが未設定です。Factory / Router を src/config.ts に入力してください。",
+    "amountOf": "{{sym}} の数量",
+    "newPairHint": "これは新しいペアです —— あなたが最初の流動性提供者となり、設定した比率が初期価格になります。",
+    "yourLp": "あなたの LP",
+    "estReceive": "受取予定",
+    "btnNotConfigured": "コントラクトアドレス未設定",
+    "btnPickDifferent": "別のトークンを選択してください",
+    "btnEnterAmount": "数量を入力",
+    "btnProcessing": "処理中…",
+    "btnAdd": "流動性を追加",
+    "btnNoLp": "このペアの流動性がありません",
+    "btnRemove": "流動性を削除",
+    "toastApproveToken": "{{sym}} を承認中…",
+    "toastApproved": "{{sym}} を承認しました",
+    "toastAdding": "流動性を追加中…",
+    "toastAdded": "流動性を追加しました",
+    "toastNoLp": "削除できる流動性がありません",
+    "toastApproveLp": "LP トークンを承認中…",
+    "toastRemoving": "流動性を削除中…",
+    "toastRemoved": "流動性を削除しました"
+  },
+  "tokenModal": {
+    "title": "トークンを選択",
+    "search": "名前 / シンボルで検索、またはトークンアドレスを貼り付けてインポート",
+    "searching": "検索中…",
+    "invalid": "このアドレスは有効なトークンコントラクトではありません",
+    "clickImport": "クリックしてインポート",
+    "import": "インポート",
+    "cancel": "キャンセル",
+    "unknownSource": "提供元不明",
+    "viewOnExplorer": "BscScan で確認",
+    "importWarning": "誰でも任意の名前のトークンを作成でき、既存プロジェクトの偽物や誤解を招く版も含まれます。こうした詐欺的なトークンの購入は、資金の永久的な損失につながる可能性があります。",
+    "native": "ネイティブコイン",
+    "empty": "トークンが見つかりません"
+  }
+}
